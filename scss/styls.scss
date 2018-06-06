@@ -1,0 +1,119 @@
+body{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+.foto4{
+  background-color: #0cfa99;
+}
+h1,
+  h2,
+    h3,
+      h4 {
+        font-family: 'Passion One', cursive;
+
+}
+
+p{
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+  padding-left: 10%;
+}
+
+aside h3{
+  text-align: center;
+}
+nav{
+  padding-left: 7%;
+  width: 100vw;
+  ul{
+
+    margin: 0;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    font-family: 'Passion One', cursive;
+    justify-content: space-between;
+    list-style: none;
+    background-color: white;
+
+    li {
+
+      }
+    }
+  }
+
+
+main{
+.content{
+  width: 100%;
+  //height: 100%;
+  background-color: #0cfa99;
+  color: white;
+  transform: rotate(-2deg);
+  height: 60vh;
+
+}
+  .test{
+    display: flex;
+    position: absolute;
+    top: 15%;
+  }
+}
+
+.content,.fo-leg,.gok,.foto4{
+  display: flex;
+}
+
+
+.tekst,.foto, .foto2, .uitleg, .gokken, .foto3, .title, .slot {
+  width: 50%;
+  margin: 2% 10% 2% 10%;
+  display: inline-block;
+}
+
+.fo-leg{
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.foto2, .tekst, .gokken{
+  margin-right:5%;
+}
+.uitleg, .foto, .foto3{
+  margin-left: 5%;
+}
+
+
+
+.regele{
+  background-color: whitesmoke;
+  .regels {
+    margin: 2% 10% 2% 10%;
+    display: flex;
+    p {
+      justify-content: flex-start;
+      text-align: left;
+    }
+  }
+}
+
+.foto, .foto2{
+  img{
+    width: 120%;
+    height: 80%;
+  }
+}
+
+.foto3, .slot{
+  img{
+    width: 120%;
+    height: 100%;
+  }
+}
